@@ -1,7 +1,7 @@
 {
   "name": "curl-to-json-cli",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Convert curl to json in command line",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,11 @@
   },
   "bin": {
     "c2j-cli": "./bin/index.js"
-  }
+  },
+  "keywords": [
+    "curl-to-json",
+    "curl-to-json-cli",
+    "curl-convertor",
+    "curl-convertor-to-json"
+  ]
 }
