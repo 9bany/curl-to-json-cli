@@ -1,0 +1,26 @@
+{
+  "name": "curl-to-json-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9bany/curl-to-json-cli.git"
+  },
+  "author": "rony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9bany/curl-to-json-cli/issues"
+  },
+  "homepage": "https://github.com/9bany/curl-to-json-cli#readme",
+  "dependencies": {
+    "@bany/curl-to-json": "^1.0.3",
+    "yargs": "^17.3.1"
+  },
+  "bin": {
+    "c2j-cli": "./bin/index.js"
+  }
+}
