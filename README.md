@@ -29,6 +29,7 @@ Output
   },
   url: 'http://localhost:3001/search?search=react&asdfa=asfdaf',
   origin: 'http://localhost:3001',
+  pathmane: "/search",
   params: { search: 'react', asdfa: 'asfdaf' },
   body: { name: 'string', name2: 'string' }
 }
